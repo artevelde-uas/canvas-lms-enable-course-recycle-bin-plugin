@@ -1,7 +1,7 @@
 import i18n from './i18n';
 
 
-export default class {
+export default {
     
     init(app) {
         app.addRouteListener('course.settings', function (params) {
