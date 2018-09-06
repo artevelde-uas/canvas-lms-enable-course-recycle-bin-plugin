@@ -1,30 +1,4 @@
-import i18next from 'i18next';
-
-const i18n = i18next.createInstance().init({
-    'lng': document.documentElement.lang,
-    resources: {
-        "en": {
-            "translation": {
-                "recycle_bin": "Course Recycle Bin"
-            }
-        },
-        "nl": {
-            "translation": {
-                "recycle_bin": "Cursusprullenbak"
-            }
-        },
-        "fr": {
-            "translation": {
-                "recycle_bin": "Corbeille du cours"
-            }
-        },
-        "de": {
-            "translation": {
-                "recycle_bin": "Kurs Papierkorb"
-            }
-        }
-    }
-});
+import i18n from './i18n';
 
 
 export default class {
