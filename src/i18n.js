@@ -2,7 +2,8 @@ import i18next from 'i18next';
 
 
 export default i18next.createInstance().init({
-    'lng': document.documentElement.lang,
+    lng: document.documentElement.lang,
+    fallbackLng: 'en',
     resources: {
         "en": {
             "translation": {
