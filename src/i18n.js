@@ -24,6 +24,26 @@ export default i18next.createInstance().init({
             "translation": {
                 "recycle_bin": "Kurs Papierkorb"
             }
+        },
+        "es": {
+            "translation": {
+                "recycle_bin": "Papelera de reciclaje del curso"
+            }
+        },
+        "it": {
+            "translation": {
+                "recycle_bin": "Cestino di corso"
+            }
+        },
+        "ch": {
+            "translation": {
+                "recycle_bin": "程回收"
+            }
+        },
+        "jp": {
+            "translation": {
+                "recycle_bin": "コースごみ箱"
+            }
         }
     }
 });
