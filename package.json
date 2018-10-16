@@ -1,7 +1,7 @@
 {
   "name": "@ahsdile/canvas-lms-enable-course-recycle-bin-plugin",
-  "version": "0.4.0",
-  "description": "Plugin for the Canvas LMS theme app that adds a 'Recycle bin' button to the course settings menu",
+  "version": "0.4.1",
+  "description": "Plugin for the Canvas LMS theme app that adds a 'Course Recycle Bin' button to the course settings menu",
   "license": "MIT",
   "author": "Renaat De Muynck <renaat.demuynck@arteveldehs.be>",
   "module": "src/index.js",
