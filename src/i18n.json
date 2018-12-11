@@ -1,0 +1,26 @@
+{
+    "en": {
+        "recycle_bin": "Course Recycle Bin"
+    },
+    "nl": {
+        "recycle_bin": "Cursusprullenbak"
+    },
+    "fr": {
+        "recycle_bin": "Corbeille du cours"
+    },
+    "de": {
+        "recycle_bin": "Kurs Papierkorb"
+    },
+    "es": {
+        "recycle_bin": "Papelera de reciclaje del curso"
+    },
+    "it": {
+        "recycle_bin": "Cestino di corso"
+    },
+    "ch": {
+        "recycle_bin": "程回收"
+    },
+    "jp": {
+        "recycle_bin": "コースごみ箱"
+    }
+}
