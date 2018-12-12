@@ -3,7 +3,9 @@ import i18n from './i18n';
 
 export default function (app) {
     app.addRouteListener('courses.settings', function (params) {
-        let url = '/courses/' + params.courseId + '/undelete';
+        let url = app.getRouteUrl('courses.settings.undelete', {
+            courseId: params.courseId
+        });
         
         app.addReadyListener('#right-side > div:first-child > a:last-of-type', function (el) {
             el.insertAdjacentHTML('afterend', `
