@@ -10,8 +10,7 @@
   "repository": "https://github.com/ahsdile/canvas-lms-enable-course-recycle-bin-plugin",
   "module": "src/index.js",
   "files": [
-    "src/index.js",
-    "src/i18n.json"
+    "src/"
   ],
   "peerDependencies": {
     "@ahsdile/canvas-lms-app": "^0.11.0"
