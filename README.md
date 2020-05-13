@@ -4,9 +4,15 @@ Plugin for the [Canvas LMS theme app](https://www.npmjs.com/package/@artevelde-u
 'Course Recycle Bin' button to the course settings menu.
 
 #### Button placement:
+
+A new button will be added on the cource settings page:
+
 ![Button placement](docs/example-link.png)
 
 #### Recycle bin page:
+
+This will give you access to the hidden recycle bin page:
+
 ![Recycle bin page](docs/example-restore.png)
 
 ## Installation
