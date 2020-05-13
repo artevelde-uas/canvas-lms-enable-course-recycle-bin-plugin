@@ -2,9 +2,9 @@ import translations from './i18n.json';
 
 
 export default function ({ router, dom, i18n, i18n: { translate: __ } }) {
-    i18n.setTranslations(translations);
-
     router.onRoute('courses.settings', async params => {
+        i18n.setTranslations(translations);
+
         let url = router.getUrl('courses.settings.undelete', {
             courseId: params.courseId
         });
