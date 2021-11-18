@@ -1,10 +1,9 @@
-import translations from './i18n.json';
+import { router, dom } from '@artevelde-uas/canvas-lms-app';
+import __ from './i18n';
 
 
-export default function ({ router, dom, i18n, i18n: { translate: __ } }) {
+export default function () {
     router.onRoute('courses.settings', async params => {
-        i18n.setTranslations(translations);
-
         let url = router.getUrl('courses.settings.undelete', {
             courseId: params.courseId
         });
@@ -17,4 +16,6 @@ export default function ({ router, dom, i18n, i18n: { translate: __ } }) {
             </a>
         `);
     });
+
+    return require('../package.json');
 }
