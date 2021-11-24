@@ -1,0 +1,7 @@
+{
+    "recycle_bin": "Course Recycle Bin",
+    "package": {
+        "title": "Enable the course recycle bin",
+        "description": "Enables the course recycle bin by adding a link to the course settings menu on the right side."
+    }
+}
