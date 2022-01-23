@@ -4,7 +4,7 @@ Plugin for the [Canvas LMS theme app](https://www.npmjs.com/package/@artevelde-u
 'Course Recycle Bin' button to the course settings menu.
 
 [![](https://img.shields.io/npm/v/@artevelde-uas/canvas-lms-enable-course-recycle-bin-plugin.svg)](https://www.npmjs.com/package/@artevelde-uas/canvas-lms-enable-course-recycle-bin-plugin)
-[![](https://img.shields.io/github/license/artevelde-uas/canvas-lms-enable-course-recycle-bin-plugin.svg)](https://spdx.org/licenses/MIT)
+[![](https://img.shields.io/github/license/artevelde-uas/canvas-lms-enable-course-recycle-bin-plugin.svg)](https://spdx.org/licenses/ISC)
 [![](https://img.shields.io/npm/dt/@artevelde-uas/canvas-lms-enable-course-recycle-bin-plugin.svg)](https://www.npmjs.com/package/@artevelde-uas/canvas-lms-enable-course-recycle-bin-plugin)
 
 #### Button placement:
