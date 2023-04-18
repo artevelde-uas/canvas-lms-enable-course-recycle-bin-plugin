@@ -1,5 +1,5 @@
 import { router, dom } from '@artevelde-uas/canvas-lms-app';
-import __ from './i18n';
+import t from './i18n';
 
 
 /**
@@ -15,14 +15,14 @@ export default function () {
         // Append the 'Course Recycle Bin' link to the menu on the right side
         lastMenuItem.insertAdjacentHTML('afterend', `
             <a class="Button Button--link Button--link--has-divider Button--course-settings" href="${url}">
-                <i class="icon-trash"></i>${__('recycle_bin')}
+                <i class="icon-trash"></i>${t('recycle_bin')}
             </a>
         `);
     });
 
     return {
         ...require('../package.json'),
-        title: __('package.title'),
-        description: __('package.description')
+        title: t('package.title'),
+        description: t('package.description')
     };
 }
